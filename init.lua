@@ -483,6 +483,9 @@ require('lazy').setup({
       { 'mason-org/mason.nvim', opts = {} },
       'WhoIsSethDaniel/mason-tool-installer.nvim',
 
+      -- This plugin streamlines Neovim's LSP setup by automating server installation and activation, providing helpful management commands, and mapping mason.nvim packages to nvim-lspconfig configurations.
+      { 'mason-org/mason-lspconfig.nvim', opts = {} },
+
       -- Useful status updates for LSP.
       { 'j-hui/fidget.nvim', opts = {} },
 
